@@ -1,0 +1,14 @@
+<div class="card mb-3" style="width: 25rem">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <img src="{{movie.Poster}}" alt="poster" style="width: 100%;">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <h5 class="card-title">{{movie.Title}}</h5>
+          <p class="card-text"><small class="text-muted">{{movie.Year}}</small></p>
+          <a href="#" class="myBtn btn btn-primary" (click)="visualizzaDettaglio($event)">Dettaglio</a>
+        </div>
+      </div>
+    </div>
+</div>
